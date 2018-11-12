@@ -1,0 +1,15 @@
+contacts={ "greg": 7235591, "Mary": 3841212, "Bob": 3841212, "Susan": 2213278}
+# print content of dictionary
+print("Dictionary content are: \n", contacts)
+
+print("Phone number for Susan is:", contacts["Susan"])
+
+print("Lenght of dictionary is:", len(contacts))
+
+contacts["John"]=4440001
+contacts["Fred"]=5550001
+
+contacts.pop("Bob")
+print("Contents of contacts after deleting entry for bob is:\n", contacts)
+print("lenght of dictionary is now:", len(contacts))
+
