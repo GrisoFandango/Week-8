@@ -1,5 +1,7 @@
 sum=0
-for i in range(1,10):#remember that range will stop a number before the upper limit, in this case 9
+#remember that range will stop a number before the upper limit, in this case 9
+    sum += i
+for i in range(1,10):
     sum += i
 
 print("Sum from 1 to 10 is", sum)
