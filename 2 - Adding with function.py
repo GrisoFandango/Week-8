@@ -1,5 +1,10 @@
+#creating a function that will add up 
+#the number between a range given from
+#the 2 arguments
 def sum(r1,r2):
     result = 0
+    #this loop will sum up all the 
+    #number bewtween the 2 arguments
     for i in range(r1,r2):
         result += i
     return result
