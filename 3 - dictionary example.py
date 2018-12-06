@@ -1,4 +1,7 @@
-contacts={ "greg": 7235591, "Mary": 3841212, "Bob": 3841212, "Susan": 2213278}
+contacts={"greg": 7235591, 
+          "Mary": 3841212, 
+          "Bob": 3841212, 
+          "Susan": 2213278}
 # print content of dictionary
 print("Dictionary content are: \n", contacts)
 #printing the value of a dictionary key
